@@ -1,0 +1,45 @@
+html, body {
+    margin: 0 auto;
+}
+
+header, main {
+    display: block;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+h1 {
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 3px;
+}
+
+h1:hover {
+    border-radius: 25px;
+    box-shadow: 5px 10px 20px;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+p {
+    padding: 10px;
+    margin: 1%;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(78, 150, 209);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(68, 66, 190);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 140, 255);
+    text-decoration: underline;
+    font-weight: bold;
+}
