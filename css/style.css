@@ -52,6 +52,7 @@ img:hover {
 
 span {
     padding: 10px;
+    margin: 5px;
     border: 1px solid #000000;
 }
 
@@ -131,6 +132,10 @@ footer {
         text-align: center;
         width: 80%;
         clear: both;
+    }
+    span {
+        padding: 3px;
+        margin: 1px;
     }
     img {
         float: none;
