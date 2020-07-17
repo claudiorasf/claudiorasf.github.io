@@ -4,7 +4,7 @@ html, body {
 
 body {
     background: #fafafa;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Lato', 'Roboto', Arial, sans-serif;
 }
 
 #wrapper {
@@ -24,17 +24,20 @@ header, main {
 
 header {
     grid-area: headerarea;
-    width: 50%;
-    clear: both;
     margin: 1% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 img {
     float: left;
     border-radius: 50%;
-    padding: 10px;
+    padding: 25px 10px;
     max-width: 100%;
-    width: 350px;
+    width: 300px;
     height: auto;
 }
 
@@ -46,8 +49,8 @@ img:hover {
 
 #txt-format {
     float: left;
-    text-align: justify;
-    margin: 20px;
+    text-align: center;
+    margin: 10px;
 }
 
 span {
@@ -107,7 +110,10 @@ footer {
     grid-area: footerarea;
     margin: 10px;
     padding: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -148,7 +154,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
     #wrapper {
         margin: 0 auto;
         width: 100%;
