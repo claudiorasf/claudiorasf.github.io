@@ -47,24 +47,38 @@ img:hover {
     transition-duration: 0.5s;
 }
 
-#txt-format {
-    float: left;
+.txt-format {
     text-align: center;
-    margin: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 span {
-    padding: 10px;
+    padding: 8px 12px;
     margin: 5px;
-    border: 1px solid #000000;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    background: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+span:hover {
+    border-color: #4e96d1;
+    background: #e8f4ff;
+    box-shadow: 0 2px 8px rgba(78, 150, 209, 0.2);
 }
 
 main {
     grid-area: content;
-    width: 50%;
+    width: 90%;
+    max-width: 600px;
     background: #fff;
     margin: 1% auto;
-    padding: 1%;
+    padding: 2%;
     border: 2px solid #fff;
     box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
     border-radius: 7px;
@@ -129,24 +143,26 @@ footer {
     }
     header {
         grid-area: headerarea;
-        width: 80%;
+        width: 100%;
         clear: both;
     }
     main {
         grid-area: content;
         justify-content: center;
         text-align: center;
-        width: 80%;
+        width: 95%;
+        max-width: 90vw;
         clear: both;
     }
     span {
-        padding: 3px;
-        margin: 1px;
+        padding: 6px 8px;
+        margin: 3px;
+        font-size: 0.9em;
     }
     img {
         float: none;
         padding: 10px;
-        width: 200px;
+        width: 150px;
         border-radius: 50%;
     }
     footer {
@@ -167,21 +183,22 @@ footer {
     }
     header {
         grid-area: headerarea;
-        width: 80%;
+        width: 100%;
         clear: both;
     }
     main {
         grid-area: content;
         justify-content: center;
         text-align: center;
-        width: 80%;
+        width: 85%;
+        max-width: 600px;
         clear: both;
     }
     img {
         float: none;
         border-radius: 50%;
         padding: 10px;
-        width: 200px;
+        width: 180px;
     }
     footer {
         grid-area: footerarea;
