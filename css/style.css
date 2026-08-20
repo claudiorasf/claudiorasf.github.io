@@ -66,6 +66,14 @@ span {
     transition: all 0.3s ease;
 }
 
+.csharp-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 span:hover {
     border-color: #4e96d1;
     background: #e8f4ff;
